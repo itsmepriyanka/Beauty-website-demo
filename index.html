@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Content Delivery Network (CDN) link of bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="./media/logo-chanel.png"
+      type="image/x-icon"
+    />
+
+    <!-- CDN link for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <title>BeautyShip</title>
+  </head>
+  <body>
+    <header class="position-relative">
+      <div class="position-absolute w-100 z-1">
+        <div class="gap"></div>
+        <div class="navbar ms-5">
+          <div class="logo">
+            <h2 class="fw-bolder text-warning">
+              BEAUTY<span class="text-light">SHIP</span>
+            </h2>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Services</a></li>
+              <li><a href="">Page</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="search">
+            <i class="bi bi-search bg-white px-3 py-2 rounded"></i>
+            <i class="bi bi-moon ps-3"></i>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="carouselExampleInterval"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./media/b1.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./media/b2.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./media/ba2.png" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <div class="text-center mt-5">
+        <small>OUR INFO</small>
+        <h1>We Are Not Your Regular Beauty Provider We</h1>
+        <h1>Take Time To Go Further</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus,
+          vero?<br />Lorem ipsum dolor sit amet consectetur.
+        </p>
+      </div>
+      <div class="video">
+        <video
+          src="./media/beauty_video.mp4"
+          width="100%"
+          autoplay
+          muted
+          loop
+        ></video>
+      </div>
+      <div class="box d-flex">
+        <div class="text col-5 p-4">
+          <small>WELCOME</small>
+          <p class="fw-bolder fs-2">
+            We Help Build On Past & <br />
+            Prepare For Your Future.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
+            debitis! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            At facilis perspiciatis a error ab facere iusto reiciendis
+            voluptatibus quae veritatis.
+          </p>
+        </div>
+        <div class="photo d-flex col-5 justify-content-evenly">
+          <img src="./media/product1.png" alt="" width="45%" height="350px" />
+          <img src="./media/product2.png" alt="" width="45%" />
+        </div>
+      </div>
+      <div>
+        <small>WELCOME</small>
+        <p class="fw-bolder fs-2">
+          We Help Build On Past & Prepare For <br />
+          Your Future.
+        </p>
+        <div class="boxes">
+          <div class="box1"></div>
+          <div class="box2"></div>
+          <div class="box3"></div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
